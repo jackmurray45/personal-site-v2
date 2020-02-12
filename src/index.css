@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top:15px;
+}
+
+.nav-link, body{
+  color:	rgb(0,0,0)!important;
+}
+
+.nav-link:hover{
+  color:white !important;
+}
+
+.header, .navbar, body {
+  background-color: 	rgb(47,79,79) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}
+
+.filler{
+  width: 100%;
+  min-height: 300px;
+  padding:50px;
+  
+}
+.content-header{
+  padding-left:50px;
+  padding-top:20px;
+}
+
+
+@media (max-width: 991px){
+  nav{
+    top: 325px !important;
+    width: 100%;
+  }
+  .navbar{
+    flex-flow: row nowrap;
+    position: absolute !important;
+    
+  }
+  
+  .first{
+    margin-right: 0 !important;
+  }
+
+  .navbar-nav{
+    flex-direction: row;
+    margin-right: 0 !important;
+  }
+
+  .h2-section{
+    margin-top:58px;
+  }
+
+  .first-link, .second-link{
+    margin: 0 !important;
+    width: 50%;
+  }
+
+  .about-link{
+    width:30%;
+  }
+
+  .experience-link{
+    width:70%;
+  }
+
+  .links-link{
+    width:70%;
+  }
+
+  .resume-link{
+    width:30%;
+  }
+
+  .second{
+    -ms-flex-pack: none!important;
+    justify-content: none!important;
+  }
+
+  .first, .second{
+    width: 50% !important;
+  }
+
+}
+
+
