@@ -4,7 +4,7 @@ import Styled from 'styled-components';
 const Styles = Styled.div`
   background-color: rgb(250,128,114);
   border-radius: 50px;
-  min-height: 445px;
+  min-height: 470px;
 
   .filler{
     margin-top: 10px;
