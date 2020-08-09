@@ -9,13 +9,14 @@ const Styles = Styled.div`
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
+  width: 235px;
   height: 235px;
   background-size: cover;
   background-position: center;
   will-change: opacity;
   border-radius: 50%;
-  z-index:1000 !important;
+  z-index:1 !important;
+  margin-top:10px;
 }
   
 `;

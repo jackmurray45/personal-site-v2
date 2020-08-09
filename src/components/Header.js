@@ -7,8 +7,7 @@ import {useSpring, animated} from 'react-spring'
 
 
 const Styles = Styled.div`
-text-align:center;
-background-color:white;
+  text-align:center;
 
 `;
 

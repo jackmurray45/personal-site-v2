@@ -20,7 +20,7 @@ function Experience() {
           <h4>Overview</h4>
           <ul>
             <li><u>Languages:</u> Python, PHP, Java, Javascript, C#/C++, ColdFusion</li>
-            <li><u>Frameworks/Libraries:</u> Laravel, Codeigniter, Express.js, Sails.js, Vue.js, React.js </li>
+            <li><u>Frameworks/Libraries:</u> Laravel/Lumen, ASP.NET, Codeigniter, Express.js, Sails.js, Vue.js, React.js </li>
             <li><u>Databases:</u> MySQL, SQL Server, MongoDB</li>
             <li><u>DevOps Tools:</u> Git, Docker</li>
           </ul>

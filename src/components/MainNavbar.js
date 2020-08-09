@@ -15,6 +15,12 @@ const Styles = Styled.div`
   Position: relative;
   Top: 50%;
   Transform: translateY(-50%);
+  margin-top:15px;
+  background-color:transparent;
+
+  padding-top:0px !important;
+  padding-bottom:0px !important;
+  
  }
  .first{
    width:50%;
