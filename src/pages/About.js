@@ -4,7 +4,7 @@ import Styled from 'styled-components';
 const Styles = Styled.div`
   background-color: rgb(250,128,114);
   border-radius: 50px;
-  min-height: 470px;
+  /* min-height: 475px; */
 
   .filler{
     margin-top: 10px;
@@ -14,12 +14,12 @@ const Styles = Styled.div`
 function About() {
 
   return (
-    <Styles>
+    <Styles className = 'page-content'>
       <h3 className = 'content-header'>About</h3>
       <div className = 'filler'>
           <p>
             Hey there! My name is Jack and I am a software engineer located in Irvine, CA.
-            Feel free to check out my resume, some of my links, or send me an email at jackmurray445@gmail.com.
+            Feel free to check out my resume, some of my links, or send me an email at <u>jackmurray445@gmail.com.</u>
           </p>
           <p>
             A little bit about myself. I grew up in Manhattan Beach, CA until the first grade when I moved into a ranch with my parents in Temecula, CA 

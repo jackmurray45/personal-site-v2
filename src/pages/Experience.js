@@ -5,13 +5,13 @@ import Styled from 'styled-components';
 const Styles = Styled.div`
   background-color: rgb(135,206,250);
   border-radius: 50px;
-  min-height: 470px;
+  /* min-height: 475px; */
 `;
 
 function Experience() {
 
   return (
-    <Styles>
+    <Styles className = 'page-content'>
       <h3 className = 'content-header'>Experience</h3>
       <div className = 'filler'>
           <p>I graduated University of California, Irvine in 2018 and have been working as a software engineer since. 

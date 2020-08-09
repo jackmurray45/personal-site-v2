@@ -4,7 +4,7 @@ import Styled from 'styled-components';
 const Styles = Styled.div`
 background-color: rgb(221,160,221);
 border-radius: 50px;
-min-height: 470px;
+/* min-height: 475px; */
 
 img{
   width: 75px;
@@ -51,7 +51,7 @@ li a {
 function Links() {
 
   return (
-    <Styles>
+    <Styles className = 'page-content'>
       <h3 className = 'content-header'>Links</h3>
       <div className = 'filler'>
           <div className = "img-holder">

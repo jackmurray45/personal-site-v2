@@ -6,7 +6,6 @@ import {Link} from 'react-router-dom';
 
 
 const Styles = Styled.div`
-//  background-color:gray;
  height: 235px;
  max-height:235px;
  min-height:235px;
@@ -36,6 +35,10 @@ const Styles = Styled.div`
    margin: 0 auto !important;
  }
 
+ .nav-link:hover{
+  color:white !important;
+}
+
  @media (min-width: 992px){
   .first{
     margin-right: 200px !important;
@@ -46,7 +49,7 @@ const Styles = Styled.div`
     width:50%;
   }
  }
-  
+
 `;
 
 function MainNavbar() {
