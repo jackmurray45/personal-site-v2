@@ -33,10 +33,12 @@ const Styles = Styled.div`
  .nav-link{
    max-width:50px;
    margin: 0 auto !important;
+   text-decoration: underline;
+   text-decoration-color: #81ecec;
  }
 
  .nav-link:hover{
-  color:white !important;
+  color:gray !important;
 }
 
  @media (min-width: 992px){

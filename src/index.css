@@ -10,9 +10,6 @@ body {
   color:	rgb(0,0,0)!important;
 }
 
-.header, .navbar, body {
-  background-color: 	rgb(47,79,79) !important;
-}
 
 .fade-enter {
   opacity: 0;
