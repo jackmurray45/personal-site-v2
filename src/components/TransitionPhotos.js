@@ -16,7 +16,6 @@ const Styles = Styled.div`
   will-change: opacity;
   border-radius: 50%;
   z-index:1 !important;
-  margin-top:10px;
 }
   
 `;
