@@ -14,7 +14,7 @@ function About() {
 
   return (
     <Styles className = 'page-content'>
-      <h3 className = 'content-header'>About</h3>
+      <h3 className = 'content-header'>about</h3>
       <div className = 'filler'>
           <p>
             Hey there! My name is Jack and I am a software engineer located in Irvine, CA.

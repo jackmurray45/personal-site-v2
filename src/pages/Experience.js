@@ -11,7 +11,7 @@ function Experience() {
 
   return (
     <Styles className = 'page-content'>
-      <h3 className = 'content-header'>Experience</h3>
+      <h3 className = 'content-header'>experience</h3>
       <div className = 'filler'>
           <p>I graduated University of California, Irvine in 2018 and have been working as a software engineer since. 
             Most of my work experience since I finished school has been full-stack development with an emphasis on back-end. I consider myself

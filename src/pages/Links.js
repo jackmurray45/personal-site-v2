@@ -51,7 +51,7 @@ function Links() {
 
   return (
     <Styles className = 'page-content'>
-      <h3 className = 'content-header'>Links</h3>
+      <h3 className = 'content-header'>links</h3>
       <div className = 'filler'>
           <div className = "img-holder">
             <ul>
