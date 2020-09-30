@@ -4,7 +4,6 @@ import Styled from 'styled-components';
 const Styles = Styled.div`
   background-color: rgb(250,128,114);
   border-radius: 50px;
-  /* min-height: 475px; */
 
   .filler{
     margin-top: 10px;

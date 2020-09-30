@@ -5,7 +5,6 @@ import Styled from 'styled-components';
 const Styles = Styled.div`
   background-color: rgb(135,206,250);
   border-radius: 50px;
-  /* min-height: 475px; */
 `;
 
 function Experience() {
