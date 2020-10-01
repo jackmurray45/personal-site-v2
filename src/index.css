@@ -60,33 +60,12 @@ body {
   }
 
   .first-link, .second-link{
-    margin: 0 !important;
-    width: 50%;
-  }
-
-  .about-link{
-    width:30%;
-  }
-
-  .experience-link{
-    width:70%;
-  }
-
-  .links-link{
-    width:70%;
-  }
-
-  .resume-link{
-    width:30%;
+    width:50%;
   }
 
   .second{
     -ms-flex-pack: none!important;
     justify-content: none!important;
-  }
-
-  .first, .second{
-    width: 50% !important;
   }
 
 }
